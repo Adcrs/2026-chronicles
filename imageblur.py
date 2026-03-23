@@ -6,7 +6,7 @@ imagename="combolevel1_blurred"
 def get_pixel_next():
 	
 
-	# Loop over every pixel instead of just the diagonal
+	
 	for i in range(strenght):
 		base_dir = os.path.dirname(os.path.abspath(__file__))
 		IMAGEPATH = os.path.join(base_dir, "..", "assets", "{0}.png".format(imagename))
